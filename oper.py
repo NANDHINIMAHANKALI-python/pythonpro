@@ -24,7 +24,7 @@ for employee in employees:
          elif sal_list[i] > value:
              print(f"employee:{employees[i]},  salary:{sal_list[i]},  is above 50000:False")
          else:
-             if sal_list[i] is value:
+             if sal_list[i] ==50000:
                  print(f"employee:{employees[i]},  salary:{sal_list[i]},  ia equal to 50000:False")
 
      

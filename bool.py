@@ -19,7 +19,7 @@ print(len(employees))
 sal_list = [randint(10000,70000)for _ in range(1,21)]
 print(sal_list)
 value = 50000
-result =0
+#result =0
 for i in range(len(sal_list)):
 
     if sal_list[i]< value:
@@ -43,10 +43,10 @@ for employee in employees:
 
 #IDENTITY OPERATOR
 for i in range(len(sal_list)):
-     if sal_list[i] is value:
+     if sal_list[i]==50000:
          print(f"employee:{employees[i]},  salary:{sal_list[i]},  ia equal to 50000:True")
      else:
-          print("employee:{employees[i]},  salary:{sal_list[i]},  ia equal to 50000:False")
+          print(f"employee:{employees[i]},  salary:{sal_list[i]},  ia not equal to 50000:False")
 
      
     

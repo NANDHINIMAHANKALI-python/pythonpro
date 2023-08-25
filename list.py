@@ -63,8 +63,8 @@ insert_elements(names, 2, ['naga','manu','swarna'])
 print(names)
 
 
-"""#Index------------------------------------------------
-
+#Index------------------------------------------------
+"""
 #Using index to find the position of a specific name
 print(numbers.index(63))
 
