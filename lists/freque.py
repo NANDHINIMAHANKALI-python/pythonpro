@@ -5,6 +5,6 @@ for charecter in input_string:
     if charecter in char_frequency:
         char_frequency[charecter] += 1
     else:
-        char_frequency[charecter] = 
+        char_frequency[charecter] = 1
 
 print("the Character frequency of given value:", char_frequency)

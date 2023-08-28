@@ -15,12 +15,3 @@ num_vowels = vowel_count(input_string)
 
 print("Number of vowels:", num_vowels)
 
-
-
-
-
-
-    
-
-
-

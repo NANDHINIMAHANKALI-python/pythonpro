@@ -1,4 +1,3 @@
-
 num = int(input("Enter a number: "))
 flag = False
 if num == 1:
